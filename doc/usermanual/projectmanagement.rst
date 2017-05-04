@@ -195,12 +195,12 @@ The option :menuselection:`Project --> New Project --> From template...` allows 
 layers/objects/attribute as an existing one. This option will create a new project from an existing
 :ref:`proj_manage#template`. The creation is made through the two following steps:
 
-.. image:: img/window-template1.PNG
+.. image:: img/window-template1.png
 
 #. existing template path
 #. Template information
 
-.. image:: img/window-template2.PNG
+.. image:: img/window-template2.png
 
 #. Directory for the new project
 #. Name of the new Project
@@ -436,4 +436,4 @@ To quit the project, you just have to click on the upper-right icon or select th
 .. |img3| image:: img/window-openfailed-project.png
 .. |img4| image:: img/window-openfailed-convert.png
 .. |img5| image:: img/window-openfailed-upgrade.png
-.. |img6| image:: img/window-backup-confirm.PNG
+.. |img6| image:: img/window-backup-confirm.png
