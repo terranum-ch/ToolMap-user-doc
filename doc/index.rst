@@ -2,7 +2,7 @@ ToolMap user documentation
 ============================================
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 2
    :caption: Contents:
 
    user-manual
