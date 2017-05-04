@@ -12,5 +12,6 @@ The documentation is divided into the following topics:
 
    usermanual/installation
    usermanual/gui
+   usermanual/projectmanagement
 
 
