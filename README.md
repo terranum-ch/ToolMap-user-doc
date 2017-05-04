@@ -1,6 +1,6 @@
 # ToolMap user documentation
 
-This repository contains the ToolMap user documentation and tutorials base files. The generated files are visible on ReadTheDocs.
+This repository contains the ToolMap user documentation and tutorials base files. The generated files are visible on ReadTheDocs here: http://toolmap-user-documentation.rtfd.io/
 
 ## Structure
 
