@@ -11,5 +11,6 @@ The documentation is divided into the following topics:
    :maxdepth: 2
 
    usermanual/installation
+   usermanual/gui
 
 
