@@ -23,3 +23,9 @@ This step is only needed in order to compile locally the documentation. the Read
         pip install Sphinx
 
     > see the `requirements.txt` file for more information.
+
+4. Generate the documentation locally using
+
+		sphinx-build -b html doc html
+
+5. Commit and push any change to update the documentation on ReadTheDoc
