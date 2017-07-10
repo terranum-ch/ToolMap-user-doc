@@ -395,7 +395,7 @@ Export Layers
 
 The exportation allows generating layers, which were defined at the spatial model level in order to be used in others programs. The export path and format have to be beforehand defined (see chap. :ref:`proj_manage#settings`)
 
-The exportation is made with the option :menuselection:`Projecct --> Export Layer...`. When selecting this option the following window appears:
+The exportation is made with the option :menuselection:`Project --> Export Layer...`. When selecting this option the following window appears:
 
 .. image:: img/window-exportlayer.png
 
