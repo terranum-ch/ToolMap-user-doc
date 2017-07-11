@@ -15,5 +15,7 @@ The documentation is divided into the following topics:
    usermanual/projectmanagement
    usermanual/datamanagement
    usermanual/visualization
+   usermanual/feature_selection
+
 
 
