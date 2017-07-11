@@ -14,5 +14,6 @@ The documentation is divided into the following topics:
    usermanual/gui
    usermanual/projectmanagement
    usermanual/datamanagement
+   usermanual/visualization
 
 
