@@ -17,6 +17,8 @@ The documentation is divided into the following topics:
    usermanual/visualization
    usermanual/feature_selection
    usermanual/edition
+   usermanual/attribution
+
 
 
 
