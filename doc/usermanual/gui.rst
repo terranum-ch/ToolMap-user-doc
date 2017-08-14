@@ -1,3 +1,5 @@
+.. _user-interface-overview:
+
 User Interface Overview
 =======================
 
