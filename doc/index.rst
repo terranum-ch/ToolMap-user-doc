@@ -6,6 +6,7 @@ ToolMap user documentation
    :caption: Contents:
 
    user-manual
+   tutorial
 
 
 
