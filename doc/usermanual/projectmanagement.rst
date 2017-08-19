@@ -1,7 +1,7 @@
 Project Management
 ===================
 
-The whole management of the project is made with the menu //Project//, which includes the following options:
+The whole management of the project is made with the menu :guilabel:`Project`, which includes the following options:
 
   * :guilabel:`New Project`: create a new project
   * :guilabel:`Open...`: open an existing project
@@ -13,6 +13,8 @@ The whole management of the project is made with the menu //Project//, which inc
   * :guilabel:`Export Model as PDF...`: export your data model as PDF
   * :guilabel:`Edit`: edit the project
   * :guilabel:`Exit`: quit ToolMap
+
+.. _new-project:
 
 New project
 ---------------------------
@@ -410,6 +412,8 @@ The exportation is made with the option :menuselection:`Project --> Export Layer
 
 When Exporting a Polygon Layer, ToolMap automatically create a column "NB_LABELS"
 in the resulting file. This column is filled for each polygon with the number of labels inside that polygon.
+
+.. _export-model-as-pdf:
 
 Export Model as PDF
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
