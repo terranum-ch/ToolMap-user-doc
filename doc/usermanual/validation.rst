@@ -9,6 +9,8 @@ The validation allows verifying the geometrical and semantic meaning of the obje
   * Run selected query
   * Dangling Nodes
 
+.. _semantic-validation:
+
 Semantic Validation
 -----------------------------------
 
@@ -51,6 +53,8 @@ The :guilabel:`Validation` menu includes the option :guilabel:`Dangling Nodes...
 #. [Search]: search the errors [Clear]: clear the highlighting of the errors
 
 There is basically two types of errors:
+
+.. _dangling-nodes:
 
 Dangling nodes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -389,6 +389,8 @@ After saving your template you can enter a comment that will appear if you use t
 
 #. Comment on the template
 
+.. _proj_manage#export-a-project:
+
 Export a project
 ---------------------------
 
