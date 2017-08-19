@@ -7,6 +7,8 @@ The data management is made through the //Data// menu, it contains the following
   * :guilabel:`Unlink data...` (:kbd:`Ctrl+W`): unlink a layer
   * :guilabel:`Import data`: import data into one of your construction theme
 
+.. _link-data:
+
 Link data
 -----------------
 

@@ -20,6 +20,8 @@ All the edition tools are regrouped in the menu :guilabel:`Edition`, which conta
   * Flip line :kbd:`Ctrl+Alt+F`
   * Snapping
 
+.. _edition-tools:
+
 Edition tools
 --------------------
 
@@ -31,6 +33,8 @@ To edit objects with the different tools in ToolMap you will have to enter the e
 This operation activate the edition menu
 
 .. important:: Only the construction layers (displayed in bold in the table of content) can be edited. You can only edit one layer at once
+
+.. _draw-feature:
 
 Draw feature
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,6 +55,8 @@ Line type layer
   * Cancel the last vertex of the segment in edition; Remove last vertex( :kbd:`Ctrl+Z`) option of the Edition menu
   * Finish the construction of the object with the :kbd:`ENTER` or :kbd:`TAB` key
   * Cancel the segment in creation with the :kbd:`ESC` key
+
+.. _modify-feature:
 
 Modify feature
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -138,6 +144,7 @@ Allows modifying the geographical coordinates of the vertices.
 #. Selected feature ID
 #. Number of vertices of the selected feature
 
+.. _insert-vertex:
 
 Insert vertex
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -163,6 +170,8 @@ allows deleting the selected features
   * Use the option :menuselection:`Edit --> Delete selected feature` of the  menu or use the :kbd:`Delete` or :kbd:`Backspace` key
 
 In the case of a multiple selection, a window appears asking a confirmation of the suppression.
+
+.. _cut-line:
 
 Cut line
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -209,6 +218,8 @@ snapping
 The snapping tools are accessible via the menu :menuselection:`Edition --> Snapping`
 
 During the vectorization of a point or line feature, the snapping function allows to hang on the nodes of an existing feature. The snapping can be done on the features of the active layer (i.e. current edition) and/or on features belonging to other layers (construction layers and vectorial support themes)
+
+.. _snapping-panel:
 
 Snapping panel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

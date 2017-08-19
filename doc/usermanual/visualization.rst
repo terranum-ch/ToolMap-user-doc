@@ -15,6 +15,8 @@ The different tools allowing you to explore your project in the visualization wi
   * :guilabel:`zoom to layer` (:kbd:`Ctrl+2`): Adjust the scale to display the whole selected layer
   * :guilabel:`Refresh` (:kbd:`Ctrl+R`): Refresh the screen
 
+.. _symbology:
+
 Symbology
 ----------------
 

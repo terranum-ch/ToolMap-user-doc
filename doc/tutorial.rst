@@ -16,5 +16,6 @@ This tutorial is structured as follow:
    tutorial/generalities
    tutorial/tutorial-data
    tutorial/datamodel
+   tutorial/vectorization
 
 .. tip:: The different links in the tutorial bring you to the related article in the :ref:`user-manual`. You can follow them for further explanations on the tools and functionnalities.

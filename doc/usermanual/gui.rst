@@ -73,6 +73,8 @@ Scale
 
   * |img11| Drop-down menu of available scales. User defined scale can be set using the :menuselection:`Project --> Edit --> Settings` menu
 
+.. _table-of-content:
+
 Table of Content
 -------------------------------
 

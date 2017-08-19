@@ -15,6 +15,9 @@ The access to the attribution functions is made with the menu :guilabel:`Attribu
   * Orientation (interactive mode) (:kbd:`Ctrl+Y`)
   * Shortcut...
 
+
+.. _object-kind:
+
 Object kind
 ----------------------------
 
@@ -37,6 +40,8 @@ This level of attribution is made with the object kind panel. This panel can be 
 *Object kind attribution scheme*
 
 .. image:: img/graph.png
+
+.. _object-attribute:
 
 Object attribute
 ----------------------------
