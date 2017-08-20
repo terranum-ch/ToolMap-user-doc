@@ -22,6 +22,8 @@ On the second tab of the window, there are the options related to the connection
 #. activate/deactivate the update check
 #. Information to fulfill if your connection is behind a proxy
 
+.. _information-window:
+
 Information window
 ------------------------------
 

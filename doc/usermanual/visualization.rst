@@ -42,6 +42,8 @@ The points have an additional option found on the other tab of the window (//mul
 
 The symbology is directly connected to the attribution of the point, changing its attributes may instantly change its symbology. This option can be very helpful to highlight specific classes.
 
+.. _visualization#lines:
+
 Lines
 ^^^^^^^^^^^^^^^^^^^^
 

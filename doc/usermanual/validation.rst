@@ -70,6 +70,8 @@ Missing attribution
 
 The nodes are correctly snapped but the segment between the highlighted nodes is badly attributed, it shall have the same object kind as the orange lines. This is actually a semantic error, but sometimes you can miss it with the queries because of very small lines.
 
+.. _redactor-mode:
+
 Redactor Mode
 -----------------------------------
 

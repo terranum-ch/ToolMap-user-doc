@@ -13,6 +13,8 @@ Lines
 
 The biggest part of this tutorial is dedicated to the lines as it is the layer where most of the errors occur.
 
+.. _remove-small-lines:
+
 Remove small lines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -23,7 +25,7 @@ While vectorizing and using the tools ToolMap provides you, it is possible to ha
 
 To quickly identify those irregularities, create a query.
 
-:menuselection:`Validation --> [[man:validation#semantic_validation|New query...]] --> by length`
+:menuselection:`Validation --> New query... --> by length` (see :ref:`semantic-validation`)
 
 .. image:: img/tutorial-query-length.png
 
@@ -35,10 +37,10 @@ As you can see on the status bar at the bottom of the window, the query selected
 
 .. image:: img/tutorial-query-length3.png
 
-:menuselection:`Window --> [[man:funct#information_window|Information window]]`
+:menuselection:`Window --> Information window` (see :ref:`information-window`)
 
 
-The information window displays all the selected features and displays the data of each of them. From there, you can find out their location using the option //move to// accessible via the contextual menu. I recommand you to work with a very small scale as ToolMap cannot zoom on features without geometrical meaning. This step has a real importance if checking lines bigger than 0; knowing they may not be mistakes.
+The information window displays all the selected features and displays the data of each of them. From there, you can find out their location using the option :guilabel:`move to` accessible via the contextual menu. I recommand you to work with a very small scale as ToolMap cannot zoom on features without geometrical meaning. This step has a real importance if checking lines bigger than 0; knowing they may not be mistakes.
 
 :menuselection:`Right-click on feature --> Move to`
 
@@ -67,7 +69,7 @@ This tool will sort out every geometry with inconsistencies from your selected l
 
 As you can see the line have a strange behaviour. The main cause of this mistake is an unwanted double-click while drawing the line. By deleting one of the vertices or by moving them the problem can be solved.
 
-You may want to directly use this tool instead of the query in the previous step ([[tutorial:verification&#remove_small_lines|remove small lines]]), but I hardly disencourage you to do that. The reason is that this tool can select overlapping lines which you just want to correct instead of deleting.
+You may want to directly use this tool instead of the query in the previous step (see :ref:`remove-small-lines`), but I hardly disencourage you to do that. The reason is that this tool can select overlapping lines which you just want to correct instead of deleting.
 
 Looking fo duplicates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -78,7 +80,7 @@ One more error you can easily find are the duplicated lines. With the help of a 
 
 .. image:: img/tutorial-duplicates.png
 
-The query selected one line, using the [[man:visualization#lines|multiple symbology]] and the `information window` you can isolate the problem. In this case there is a second line without any attribution, simply erase it. But if both lines had an attribution you should have considered to give the full attribution to one of the two before cleaning the duplicate.
+The query selected one line, using the multiple symbology (see :ref:`visualization#lines`)  and the `information window` you can isolate the problem. In this case there is a second line without any attribution, simply erase it. But if both lines had an attribution you should have considered to give the full attribution to one of the two before cleaning the duplicate.
 
 .. image:: img/tutorial-duplicates2.png
 
@@ -94,7 +96,7 @@ Dangling nodes
 
 At this stage your lines shall be pretty much clear. What you want to avoid now are the problems related to the polygons. First of all, check the integrity of your borders of polygon. To do that you have the tool called Dangling nodes.
 
-:menuselection:`Validation --> [[man:validation#geometrical_validation|Dangling Nodes...]]`
+:menuselection:`Validation --> Dangling Nodes...` (see :ref:`dangling-nodes`)
 
 .. image:: img/tutorial-danglingnodes.png
 
@@ -104,8 +106,12 @@ I recommend you to use the tool once for each layer instead of searching on all 
 
 The dangling nodes are displayed with white and red points. There is two factors for having dangling nodes:
 
-  - missing attribution: One segment of the line is inadequately attributed, the line is not closed.\\ .. image:: img/tutorial-danglingnodes3.png\\
-  - bad snapping: The vertices are not snapped.\\ .. image:: img/tutorial-danglingnodes4.png
+  - missing attribution: One segment of the line is inadequately attributed, the line is not closed. |img1|
+  - bad snapping: The vertices are not snapped. |img2|
+
+.. |img1| image:: img/tutorial-danglingnodes3.png
+.. |img2| image:: img/tutorial-danglingnodes4.png
+
 
 The solutions are then simple. For a missing attribution, attribute the line; for a bad snapping, modify the line with a big enough snapping radius.
 
@@ -135,7 +141,7 @@ Depending on the complexity of your map, you may forget to draw a label or you m
 
 I recommand you to create a special export folder for this operation as you will most likely export more than once the same layers.
 
-:menuselection:`Project --> [[man:validation#redactor_mode|Export layer...]]`
+:menuselection:`Project --> Export layer...` (see :ref:`redactor-mode`)
 
 .. image:: img/tutorial-creator.png
 
