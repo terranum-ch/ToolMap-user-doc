@@ -55,6 +55,8 @@ Some layers have linked attributes, which describe the related objects. The attr
 #. Save or Cancel the modifications
 #. Number of attributes available
 
+.. _object-attribute-batch:
+
 Object attribute batch
 ----------------------------
 
