@@ -197,6 +197,8 @@ Allows merging the selected lines. The selected lines have to be adjacent, the l
     - Same polarity => no consequences
     - Different polarities => the polarity becomes left to right
 
+.. _create-intersection:
+
 Create intersection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
