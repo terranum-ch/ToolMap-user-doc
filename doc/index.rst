@@ -8,6 +8,7 @@ ToolMap user documentation
    user-manual
    tutorial
    tips
+   faq
 
 
 
