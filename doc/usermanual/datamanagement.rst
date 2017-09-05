@@ -1,7 +1,7 @@
 Spatial Data management
 =======================
 
-The data management is made through the //Data// menu, it contains the following elements:
+The data management is made through the :guilabel:`Data` menu, it contains the following elements:
 
   * :guilabel:`Link data...` (:kbd:`Ctrl+O`): reference a support layer which will be displayed in your project
   * :guilabel:`Unlink data...` (:kbd:`Ctrl+W`): unlink a layer
