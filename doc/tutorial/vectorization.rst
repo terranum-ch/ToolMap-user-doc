@@ -19,7 +19,7 @@ Link data
 
 Your project is now opened, but you will need some support themes as reference and base of vectorization.
 
-:menuselection:`Data --> Link data... (Ctrl+O)` (see :ref:`link-data`).
+:menuselection:`Data --> Link data...` :kbd:`Ctrl+O` (see :ref:`link-data`).
 
 Navigate to *ToolMap* > *02 - data*, select all the files and click on :guilabel:`Open`. The linked files now appear in the table of content.
 
@@ -28,7 +28,7 @@ Activate snapping
 
 The snapping option allows you to be certain two vertices are indeed at the exact same location.
 
-:menuselection:`Edition --> Snapping --> Snapping panel... (Ctrl+G)` (see :ref:`snapping-panel`)
+:menuselection:`Edition --> Snapping --> Snapping panel...` :kbd:`Ctrl+G` (see :ref:`snapping-panel`)
 
 By right-clicking on the panel display the contextual menu allowing you to add a new layer to be considered for the snapping. Display the layers **Lines** and **Frame**
 
@@ -45,7 +45,7 @@ Now that the snapping is set, define the area of study by drawing the frame.
 
 The layer is now underlined in the table of content meaning it is in edition. By selecting the draw tool start vectorizing the frame.
 
-:menuselection:`Edition --> Draw feature (D)` (see :ref:`draw-feature`)
+:menuselection:`Edition --> Draw feature` :kbd:`D` (see :ref:`draw-feature`)
 
 Draw the frame by creating vertices all around the desired zone. Once at the end, put your last vertex a bit on the side and validate the frame with the :guilabel:`Enter` or :guilabel:`Tab` key. The vectorized line may not be very visible, to solve this little issue change the symbology of the frame.
 
@@ -57,7 +57,7 @@ Change the color for orange (or any visible color) and set the width to 3.
 
 You now have to close properly your frame:
 
-:menuselection:`Edition --> Modify feature (M)` (see :ref:`modify-feature`)
+:menuselection:`Edition --> Modify feature` :kbd:`M` (see :ref:`modify-feature`)
 
 Click on the last vertex and drag it near the first vertex, if the snapping is set correctly it shall be attracted to it ensuring the geometrical validity (vertex displayed in green if it is the case). Finish the modification by clicking on the :guilabel:`Enter` key.
 
@@ -98,9 +98,9 @@ Like we did for the frame, we have to enter the edition mode on the **Lines** la
 :menuselection:`Right-click on Lines --> Edit layer`
 
 
-1. :menuselection:`Edition --> Draw feature (D)`
+1. :menuselection:`Edition --> Draw feature` :kbd:`D`
 
-Draw your first line until you find an intersection. Validate it by clicking on the :guilabel:`Enter` key. For the lines starting/ending at the frame don't be afraid to draw them out of it. They will be cut on the export anyway.
+Draw your first line until you find an intersection. Validate it by clicking on the :kbd:`Enter` key. For the lines starting/ending at the frame don't be afraid to draw them out of it. They will be cut on the export anyway.
 
 .. image:: img/tuto-vectorization-line1.png
 
@@ -110,7 +110,7 @@ The created line is automatically selected after validation. By default the sele
 
 .. image:: img/tuto-vectorization-line2.png
 
-3. :menuselection:`Attribution --> Object attribute (single feature)... (Ctrl+A)` (see :ref:`object-attribute`)
+3. :menuselection:`Attribution --> Object attribute (single feature)...`:kbd:`Ctrl+A` (see :ref:`object-attribute`)
 
 Nothing happens, your object "Border of Intensity_map" is a line delineating a polygon. It has consequently no attributes.
 
@@ -140,7 +140,7 @@ Edition/attribution
 
 The labels don't have any topological meaning. It is why the exact location of your labels is not important. The relevant thing is to have one label laying within the borders of every polygonal surface you want to digitize.
 
-1. :menuselection:`Edition --> Draw feature (D)`
+1. :menuselection:`Edition --> Draw feature` :kbd:`D`
 
 As the labels are point type geometries it is quiet easy to draw them. Click on the wanted location and the label is already created. There is no need to press a finalizing key like for the lines. Once it is created it is automatically selected and ready to be attributed.
 
@@ -148,7 +148,7 @@ As the labels are point type geometries it is quiet easy to draw them. Click on 
 
 .. image:: img/tuto-vectorization-label1.png
 
-3. :menuselection:`Attribution --> Object attribute (single feature)... (Ctrl+A)`
+3. :menuselection:`Attribution --> Object attribute (single feature)...` :kbd:`Ctrl+A`
 
 The Object attribute (single feature) window pops up. Set process to innondation, recurrence_age to 300 and you have the liberty to write a comment if you desire.
 
@@ -178,9 +178,9 @@ As you can see on the picture above, a lot of structures are actually redundanci
 Once you have attributed the existing lines, you have to draw and attribute the rest of them. On this map there are new intersections. For that purpose create them by cutting the existing lines. The tool cut line allows you to cut a line on an existing vertex. The cutted line will be divided at the location of the vertex.
 If there isn't a vertex at the desired location, you can easily add one with the insert vertex tool.
 
-*Optional*: :menuselection:`Select a line --> Edition --> Insert vertex (I)` (see :ref:`insert-vertex`)
+*Optional*: :menuselection:`Select a line --> Edition --> Insert vertex`:kbd:`I` (see :ref:`insert-vertex`)
 
-:menuselection:`Select a line --> Edition --> Cut line (Ctrl+X)` (see :ref:`cut-line`)
+:menuselection:`Select a line --> Edition --> Cut line` :kbd:`Ctrl+X` (see :ref:`cut-line`)
 
 .. image:: img/tuto-vectorization-moveto3.png
 
