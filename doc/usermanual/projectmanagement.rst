@@ -257,6 +257,8 @@ The first tab :guilabel:`Project Properties` of the window allows modifying the 
 
 The second Tab :guilabel:`Spatial Model` allows modifying the layers (see chap. :ref:`proj_manage#spatial_model`) and the attributes (see chap. :ref:`proj_manage#attributes_definition`).
 
+.. _edit_objects:
+
 Edit objects
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 

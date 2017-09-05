@@ -21,7 +21,7 @@ The access to the attribution functions is made with the menu :guilabel:`Attribu
 Object kind
 ----------------------------
 
-This level of attribution is made with the object kind panel. This panel can be activated with the :menuselection:`Attribution --> object kind...` menu or by clicking on the Object Kind button in the toolbar.
+This level of attribution is made with the object kind panel. This panel can be activated with the :menuselection:`Attribution --> Object kind...` menu or by clicking on the Object Kind button in the toolbar.
 
 .. image:: img/window-objectkind.png
 
@@ -29,7 +29,7 @@ This level of attribution is made with the object kind panel. This panel can be 
 #. The list of objects related to the construction layer defined in (1). This list can be reordered using a contextual menu. In the line layer the objects are distributed in two categories:
 
     * Frequent objects
-    * Less frequent objects. The assignation of the object kinds to one or the other category is made at the level of the object kind definition (cf: [[man:proj_manage#edit_objects|Edit object]]).
+    * Less frequent objects. The assignation of the object kinds to one or the other category is made at the level of the object kind definition (see :ref:`edit_objects`).
 
 #. Object kind controls:
 
