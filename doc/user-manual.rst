@@ -3,11 +3,11 @@
 User Manual
 =================
 
-You will find here the most up to date documentation concerning ToolMap in a Wiki format. This document will be continuously improved as new features are added to the Program.
+You will find here the most up to date documentation concerning ToolMap. This document will be continuously improved as new features are added to the Program.
 
-From time to time we will also provide this documentation in a nicely formatted PDF document.
+This document can also be downloaded as a nicely formatted PDF document using the bottom left menu.
 
-The documentation is divided into the following topics:
+The User Manual is divided into the following topics:
 
 .. toctree::
    :maxdepth: 2
