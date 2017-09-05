@@ -54,6 +54,6 @@ You can now use your shapefiles in other softwares. See below the attribute tabl
 Thanks
 ---------------------------
 
-Thank you for following this tutorial, we hope it provided you the help you needed to start with ToolMap. Find out more advanced tips on the [[tutorial:vectorization|vectorization]], [[tutorial:attribution|attribution]] and [[tutorial:verification|validation]] process further in this Wiki.
+Thank you for following this tutorial, we hope it provided you the help you needed to start with ToolMap. Find out more advanced tips on the :ref:`tips` page.
 
 
