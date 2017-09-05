@@ -52,7 +52,7 @@ Line type layer
 
   * Activate the tool, the edition cursor displays
   * Vectorize the line with the mouse, each left-click creates a vertex
-  * Cancel the last vertex of the segment in edition; Remove last vertex( :kbd:`Ctrl+Z`) option of the Edition menu
+  * Cancel the last vertex of the segment in edition; :menuselection:`Edition --> Remove last vertex` ( :kbd:`Ctrl+Z`)
   * Finish the construction of the object with the :kbd:`ENTER` or :kbd:`TAB` key
   * Cancel the segment in creation with the :kbd:`ESC` key
 
@@ -82,12 +82,12 @@ Line type layer
 Draw Bezier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The draw Bezier tool allows building Bezier curves. For each section of Bezier you’ll have to click four time(see below).
+The draw Bezier tool allows building Bezier curves. For each section of Bezier you’ll have to click four time (see below).
 
-  - Defines your starting point
-  - Defines the direction of your Bezier at the starting point
-  - Defines your arriving point
-  - Defines the direction of your Bezier at your arriving point
+#. Defines your starting point
+#. Defines the direction of your Bezier at the starting point
+#. Defines your arriving point
+#. Defines the direction of your Bezier at your arriving point
 
 Modify Bezier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -122,6 +122,8 @@ Remove last vertex
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 While drawing a line or a Bezier, this tool allows you to remove your last vertices. This tool works only during the vectorization process. This tool will not remove vertices from a validated line.
+
+.. _edit_vertex:
 
 Edit Vertex
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -212,7 +214,7 @@ Allows creating intersections between lines which cross themselves. All the segm
 Flip fline
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :guilabel:`Flip line` option allows to reverse the polarity of the selected line. To check the polarity of the line you have to either open the vertex editor (see [[man:edition&#Edit_vertex|Edit vertex]]) and check the coordinates of the first vertex or use the [[man:visualization#lines|Oriented line symbology]]. The tool can be used on multiple lines at once.
+The :guilabel:`Flip line` option allows to reverse the polarity of the selected line. To check the polarity of the line you have to either open the vertex editor (see :ref:`edit_vertex`) and check the coordinates of the first vertex or use the oriented line symbology (see :ref:`visualization#lines`) . The tool can be used on multiple lines at once.
 
 snapping
 --------------------
@@ -226,7 +228,7 @@ During the vectorization of a point or line feature, the snapping function allow
 Snapping panel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :guilabel:`snapping panel:guilabel:` (:kbd:`Ctrl+G`) is defined by the following elements:
+The :guilabel:`snapping panel` (:kbd:`Ctrl+G`) is defined by the following elements:
 
 .. image:: img/window-snapping.png
 
