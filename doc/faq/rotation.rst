@@ -1,3 +1,5 @@
+.. _rotation_warning:
+
 Rotation Warning
 ====================
 

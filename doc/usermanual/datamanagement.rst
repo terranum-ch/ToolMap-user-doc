@@ -28,33 +28,35 @@ Some of your files may have rotation information, which is not yet supported by 
 #. rotation information
 #. display option
 
-This message will pop up every time you make an action regarding the layer (including trivial actions like zoom or pan), so be sure to [[faq:rotation|convert your images into non-rotated rasters]]. If the rotation is insignificant, you may prefer to simply ignore the message by checking the option **Hide warnings for this layer**. This option prevent the appearance of the message for the current session, but it will pop again the next time you launch your project.
+This message will pop up every time you make an action regarding the layer (including trivial actions like zoom or pan), so be sure to convert your images into non-rotated rasters (see :ref:`rotation_warning`). If the rotation is insignificant, you may prefer to simply ignore the message by checking the option **Hide warnings for this layer**. This option prevent the appearance of the message for the current session, but it will pop again the next time you launch your project.
 
 Import data
 -----------------
 
 The :menuselection:`Data --> Import data...` option allows you to import some existing information into your construction layers. You can only import lines or points geometries. The process is made in 3 different steps.
 
+.. _datamanagement#Step1:
+
 Step1
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: img/window-importdata1.png
 
-#. the //Import data...// option allows two types of data, choose the one you want to import
+#. the File type option allows two types of data, choose the one you want to import
 #. Go to the next step of the import or cancel the operation
 
 Step2
 ^^^^^^^^^^^^^^^^^^^^^
 
-If you choose to add a shapefile the following step comes ahead\\
+If you choose to add a shapefile the following step comes ahead
 
 .. image:: img/window-importdata2.png
 
 #. Directory path of the shapefile
 #. data information of the shapefile
-#. allow to go back to Step 1 :ref:`datamanagement#Step1` or to continue to Step 3
+#. allow to go back to :ref:`datamanagement#Step1` or to continue to Step 3
 
-If you choose to add a CSV file the following step comes ahead\\
+If you choose to add a CSV file the following step comes ahead
 
 .. image:: img/window-importdata4.png
 
@@ -65,12 +67,14 @@ If you choose to add a CSV file the following step comes ahead\\
 Step2.2
 """""""""""""""""""""""
 
-The CSV files are composed of columns of data separated with commas, you will have to choose wich column you want to assign to the X and Y coordinates\\
+The CSV files are composed of columns of data separated with commas, you will have to choose wich column you want to assign to the X and Y coordinates
 
 .. image:: img/window-importdata5.png
 
 #. List of the columns which can be assigned as X or Y coordinates
-#. allows to go back or to continue to [[data_manage#step3|step 3]]
+#. allows to go back or to continue to :ref:`datamanagement#Step3`
+
+.. _datamanagement#Step3:
 
 Step3
 ^^^^^^^^^^^^^^^^^^^^^
@@ -102,13 +106,14 @@ Support
 .. image:: img/pdm-toc2.png
 
 * Name of the layer
-* Edit this layer(construction layers only)\\ Remove layer(support themes only)\\
+* Edit this layer (construction layers only)
+* Remove layer (support themes only)
 * Move the selected layer in the table of contents
 
 .. image:: img/pdm-tocmove.png
 
 * Display management of the vertex (line and polygon layers type only)
-* Symbology management. This option can also be activated by double-clicking on the layer. (see chap. [[visualization#symbology|Symbology]])
+* Symbology management. This option can also be activated by double-clicking on the layer. (see :ref:`symbology`)
 
 
 .. |img1| image:: img/button-marked.png
