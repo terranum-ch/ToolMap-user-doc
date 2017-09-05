@@ -136,7 +136,7 @@ The attributes management is made from the :guilabel:`Attributes` tab of the The
 
 #. Save or cancel the attributes modifications. An attribute is defined by:
 
-    * A name: the name cannot contain spaces or reserved words ([[man:annexe|annexe]])
+    * A name: the name cannot contain spaces or reserved words (see :ref:`reserved_words`)
     * A type of data:
 
       * Text
@@ -183,7 +183,7 @@ It's possible to orientate an object of a layer. However, several constraints ha
 **Activation of the orientation**
 
 In the :guilabel:`Object Attribute` tab of the Thematic layer definition window, you have to select the attribute by clicking on it, and then activate the case Orientation Field at the
-bottom of the window(1)(see also [[man:attribution#attribute_orientation_to_point|attribute orientation to point]] for further information).
+bottom of the window(1) (see also :ref:`attribute_orientation_to_point` for further information).
 
 
 .. image:: img/window-thematiclayerdefinition3.png

@@ -22,6 +22,7 @@ The User Manual is divided into the following topics:
    usermanual/attribution
    usermanual/validation
    usermanual/fonctionalities
+   usermanual/annexe
 
 
 

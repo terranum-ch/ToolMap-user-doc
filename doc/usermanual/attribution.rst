@@ -84,6 +84,8 @@ The :guilabel:`object Kind Panel` from the menu Attribution allows you to activa
   - Empty list after attribution: automatically clear all the object kind previously selected after the attribution
   - Auto display attributes: automatically display the attributes when selecting an object
 
+.. _attribute_orientation_to_point:
+
 Attribute orientation to point
 --------------------------------
 

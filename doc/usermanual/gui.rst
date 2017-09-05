@@ -25,7 +25,7 @@ In the menu bar nine menus are available, each of them will lead you to differen
   - :guilabel:`Selection`: This menu contains tools for managing the selection.
   - :guilabel:`Edition`: All tools related to the editing process are located into this menu.
   - :guilabel:`Attribution`: This menu contains the tools used when attributing datas.
-  - :guilabel:`Validation`: This menu contains the tools used to check the objects and layers before exportation as well as the //Statistics...// tool.
+  - :guilabel:`Validation`: This menu contains the tools used to check the objects and layers before exportation as well as the :guilabel:`Statistics` tool.
   - :guilabel:`Window`: windows management and other functionalities.
   - :guilabel:`Help`: The Help Menu provides various help functions as well as options for reporting a bug.
 
