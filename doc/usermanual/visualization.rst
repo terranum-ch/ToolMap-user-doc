@@ -32,11 +32,11 @@ Points
 #. Transparency management
 #. Apply or cancel the modifications
 
-The points have an additional option found on the other tab of the window (//multiple//). Under this tab you are able to attribute two different symbology to your lines. The differentiation of the points is made through the [[man:validation#semantic_validation|queries]].
+The points have an additional option found on the other tab of the window (:guilabel:`multiple`). Under this tab you are able to attribute two different symbology to your lines. The differentiation of the points is made through the queries (see :ref:`semantic-validation`).
 
 .. image:: img/window-symbology-points2.png
 
-#. [[man:validation#semantic_validation|Query]] selected for the differentiation
+#. Query selected for the differentiation
 #. symbology management of the two classes
 #. transparency management
 
@@ -61,11 +61,11 @@ Lines
 #. Transparency management
 #. Apply or cancel the modifications
 
-The lines have an additional option found on the other tab of the window (//multiple//). Under this tab you are able to attribute two different symbology to your lines. The differentiation of the lines is made through the [[man:validation#semantic_validation|queries]].
+The lines have an additional option found on the other tab of the window (:guilabel:`multiple`). Under this tab you are able to attribute two different symbology to your lines. The differentiation of the lines is made through the queries (see :ref:`semantic-validation`).
 
 .. image:: img/window-symbology-lines2.png
 
-#. [[man:validation#semantic_validation|Query]] selected for the differenciation
+#. Query selected for the differentiation
 #. symbology management of the two classes
 #. transparency management
 
@@ -88,7 +88,7 @@ Polygons
 #. Transparency management
 #. Apply or cancel the modifications
 
-If your imported polygons have attributes, you can class them to have a multiple symbology. (see also [[man:validation#redactor_mode|Redactor mode]])
+If your imported polygons have attributes, you can class them to have a multiple symbology. (see also :ref:`redactor-mode`)
 
 .. image:: img/window-redactor3.png
 
