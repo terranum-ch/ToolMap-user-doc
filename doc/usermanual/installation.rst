@@ -13,7 +13,7 @@ Once you have activated the next step, the wizard will generate a default destin
 
 .. image:: img/install-2.png
 
-If you click on the [install] button, the installation will begin. Otherwise you can go back to change settings or simply cancel the operation. If you decided to launch the installation, a progress window will pop up. The installation process should be pretty fast.
+If you click on the :guilabel:`install` button, the installation will begin. Otherwise you can go back to change settings or simply cancel the operation. If you decided to launch the installation, a progress window will pop up. The installation process should be pretty fast.
 
 .. image:: img/install-3.png
 
@@ -21,7 +21,7 @@ Once the installation has been completed you'll have the choice to create a desk
 
 .. image:: img/install-4.png
 
-ToolMap can now be launched using either the desktop icon or the menu entry located in Programs -> ToolMap2 -> ToolMap
+ToolMap can now be launched using either the desktop icon or the menu entry located in :menuselection:`Programs --> ToolMap2 --> ToolMap`
 
 Silent Installation
 ^^^^^^^^^^^^^^^^^^^
