@@ -27,7 +27,7 @@ On the second tab of the window, there are the options related to the connection
 Information window
 ------------------------------
 
-The information window is accessible with the menu :guilabel:`window --> information window`. It displays informations about selected features or layer.
+The information window is accessible with the menu :menuselection:`Window --> Information window`. It displays information about selected features or layer.
 
 Feature tab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -43,12 +43,12 @@ Right-clicking on a feature ID gives you can access to a contextual menu with th
   * Zoom to: adjust the scale to display the selected feature on the whole screen (this option does not work for the point type layers).
   * Remove from selection: remove a feature from your selection
   * Select this feature only: unselect all the other features in your selection
-  * Copy data to clipboard: copy the informations of the selected feature
+  * Copy data to clipboard: copy the information of the selected feature
 
 Layer tab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :guilabel:`Layer` tab of the Information window displays all the informations on the selected layer.
+The :guilabel:`Layer` tab of the Information window displays all the information on the selected layer.
 
 .. image:: img/window-informations2.png
 
@@ -56,16 +56,12 @@ Layouts
 ------------------------------
 
 You can access ToolMap's different layouts using the :menuselection:`Window --> Layout` menu. These allows you to use three different kinds of windows disposition:
-  * The :guilabel:`Default` layout, which is the one you get when first launching ToolMap. This is the one displayed in the User Interface Overview (see :ref:`user-interface-overview`).
 
+#. The :guilabel:`Default` layout, which is the one you get when first launching ToolMap. This is the one displayed in the User Interface Overview (see :ref:`user-interface-overview`).
 
-#. The :guilabel:`Vertical` layout, which includes all the useful windows in a vertical display.
+#. The :guilabel:`Vertical` layout, which includes all the useful windows in a vertical display.  |img1|
 
-|img1|
-
-#. The :guilabel:`Horizontal` layout, which includes the same windows than the :guilabel:`Vertical` layout but do so in the left border and the bottom of the display window.
-
-|img2|
+#. The :guilabel:`Horizontal` layout, which includes the same windows than the :guilabel:`Vertical` layout but do so in the left border and the bottom of the display window. |img2|
 
 
 .. |img1| image:: img/window-layout1.png
