@@ -5,6 +5,7 @@ The data management is made through the //Data// menu, it contains the following
 
   * :guilabel:`Link data...` (:kbd:`Ctrl+O`): reference a support layer which will be displayed in your project
   * :guilabel:`Unlink data...` (:kbd:`Ctrl+W`): unlink a layer
+  * :guilabel:`Add Web data...` (:kbd:`Ctrl+Alt+W`): Add web data such as Google / Bing images
   * :guilabel:`Import data`: import data into one of your construction theme
 
 .. _link-data:

@@ -109,6 +109,7 @@ Project management
   * :kbd:`Ctrl+Alt+E`: Open the export layer window
   * :kbd:`Ctrl+O`: Link data
   * :kbd:`Ctrl+W`: Unlink data
+  * :kbd:`Ctrl+Alt+W`: Add Web data
 
 Navigation tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
