@@ -44,6 +44,11 @@ The :menuselection:`Data --> Add Web data` option allows adding web data as supp
 
 .. image:: img/add-web-data.png
 
+.. note:: Web data layers will not be displayed if there is no data into the actual project. Web layers aren’t able to know which part of the world should be displayed if at least one local support layer or one construction layer isn’t displayed.
+
+.. warning:: Currently, web data layers didn’t work behind a proxy. This will be improved in futures versions
+
+
 Import data
 -----------------
 
