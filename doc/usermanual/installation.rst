@@ -9,17 +9,22 @@ installer. It can be found on our web site: http://www.crealp.ch/fr/accueil/them
 
 .. image:: img/install-1.png
 
-Once you have activated the next step, the wizard will generate a default destination folder for the installation; you can, of course, change the destination folder.
+Once you activated the next step, the installer will ask you to accept the license agreement. ToolMap is released under the GNU General public license. More information about this license could be found here: https://www.gnu.org/licenses/licenses.html#GPL
 
 .. image:: img/install-2.png
 
-If you click on the :guilabel:`install` button, the installation will begin. Otherwise you can go back to change settings or simply cancel the operation. If you decided to launch the installation, a progress window will pop up. The installation process should be pretty fast.
+Once you activated the next step, the installer will ask you if you want to add ToolMap to the path. in most cases, the default value is appropriate. Here you can also choose to add the ToolMap icon to the desktop.
 
 .. image:: img/install-3.png
 
-Once the installation has been completed you'll have the choice to create a desktop shortcut before closing the setup wizard.
+Once you have activated the next step, the wizard will generate a default destination folder for the installation. You can, of course, change the destination folder.
+
+.. note:: If you don’t have admin access to your computer, the destination folder should be changed to a folder in which you have write permission such as C:\\Users\\username\\AppData\\Local\\ToolMap
+
 
 .. image:: img/install-4.png
+
+If you click on the :guilabel:`install` button, the installation will begin. Otherwise you can go back to change settings or simply cancel the operation. If you decided to launch the installation, a progress window will pop up. The installation process should be pretty fast.
 
 ToolMap can now be launched using either the desktop icon or the menu entry located in :menuselection:`Programs --> ToolMap2 --> ToolMap`
 
@@ -33,20 +38,18 @@ Installing
 
 The following command line may be used for the silent installation of ToolMap: ::
 
-    InstallToolMap_d967.exe /S /INSTDIR=”C:\Program Files\ToolMap2” /AllUsers
+    ToolMap-2.6.1992-win64.exe /S /D=C:\Program Files\ToolMap”
 
 * **/S:** inform the installer to be silent
 
-* **/INSTDIR:** Path for installing ToolMap
-
-* **/AllUsers** (or **/CurrentUser**): Install ToolMap for all users (administrator privilege required) or for the current one only.
+* **/D:** Path for installing ToolMap
 
 Uninstalling
 """"""""""""
 
 The following command line may be used for uninstalling ToolMap silently: ::
 
-    “C:\Program File\ToolMap2\uninst.exe” /S
+    “C:\Program File\ToolMap2\Uninstall.exe” /S
 
 Mac OSX
 --------
@@ -64,9 +67,10 @@ Delete the .DMG file by dragging it to the trash.
 Linux
 -----
 
-ToolMap is actually only available as Debian (\*.DEB) package for Ubuntu. To install ToolMap, you may either run the following command line: ::
+ToolMap is actually only available as AppImage (\*.AppImage). Thoses package should run across all major Linux distributions without any issues. AppImages can be downloaded and run without installation or the need for root rights. You first need to make the downloaded AppImage executable as follows: ::
 
-    sudo dpkg -i toolmap_2.4.1337_amd64.deb
+        chmod a+x ToolMap-2.6.1992-linux64.AppImage
 
-or use your favorite package manager
+You can then execute ToolMap with the following command: ::
 
+        ./ToolMap-2.6.1992-linux64.AppImage
