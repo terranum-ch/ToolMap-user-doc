@@ -25,8 +25,17 @@ To create a new project, select :menuselection:`Project --> New Project --> Empt
 
 #. Project Path
 #. Project name
-#. Units (meters, Kilometers, Lat/Long). Actually this option isn't enabled and projects are always using meters as their units
-#. Projection system (no projection, Swiss projection). Actually this option isn't enabled and only "no projection" is supported.
+#. Units:
+
+    * Meters
+    * Degrees (Decimal Degrees)
+    * Degrees (Degrees, Minutes, Seconds)
+
+#. Projection system:
+
+    * Swiss projection (CH1903)
+    * World (WGS84)
+
 #. Create a new empty project and activate the next step
 #. Cancel the creation of the project
 
