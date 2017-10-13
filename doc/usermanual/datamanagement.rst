@@ -31,6 +31,19 @@ Some of your files may have rotation information, which is not yet supported by 
 
 This message will pop up every time you make an action regarding the layer (including trivial actions like zoom or pan), so be sure to convert your images into non-rotated rasters (see :ref:`rotation_warning`). If the rotation is insignificant, you may prefer to simply ignore the message by checking the option **Hide warnings for this layer**. This option prevent the appearance of the message for the current session, but it will pop again the next time you launch your project.
 
+Unlink data
+-----------------
+The :menuselection:`Data --> Unlink data` option allows removing specified support layers from the project. Those layers aren't deleted but simply removed from the project.
+
+.. image:: img/unlink-data.png
+
+Add Web Data
+-----------------
+
+The :menuselection:`Data --> Add Web data` option allows adding web data as support layers. The list of supported web data are listed in the picture bellow.
+
+.. image:: img/add-web-data.png
+
 Import data
 -----------------
 
