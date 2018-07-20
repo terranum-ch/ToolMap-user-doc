@@ -52,56 +52,128 @@ The :menuselection:`Data --> Add Web data` option allows adding web data as supp
 Import data
 -----------------
 
-The :menuselection:`Data --> Import data...` option allows you to import some existing information into your construction layers. You can only import lines or points geometries. The process is made in 3 different steps.
+The :menuselection:`Data --> Import data...` option allows to import some existing information into the construction layers. You can only import lines or points geometries. The process is made in several successive steps. The import might finish earlier if the next steps are not relevant (e.g. there is no attribute).
 
 .. _datamanagement#Step1:
 
-Step1
+Step 1
 ^^^^^^^^^^^^^^^^^^^^^
+
+ToolMap supports the import of csv (points only) or shapefiles (points, lines, frame, or labels)
 
 .. image:: img/window-importdata1.png
 
-#. the File type option allows two types of data, choose the one you want to import
-#. Go to the next step of the import or cancel the operation
+#. The file type option allows two types of data, choose the one you want to import
+#. Go to the next step or cancel the operation
 
-Step2
+.. _datamanagement#Step2:
+
+Step 2
 ^^^^^^^^^^^^^^^^^^^^^
 
 If you choose to add a shapefile the following step comes ahead
 
 .. image:: img/window-importdata2.png
 
-#. Directory path of the shapefile
-#. data information of the shapefile
-#. allow to go back to :ref:`datamanagement#Step1` or to continue to Step 3
+#. Path to the shapefile
+#. Information about the shapefile
+#. Go back to :ref:`datamanagement#Step1` or continue to :ref:`datamanagement#Step4`
 
 If you choose to add a CSV file the following step comes ahead
 
 .. image:: img/window-importdata4.png
 
-#. Directory path of the CSV file
-#. Information on the CSV file
-#. allow to go back or to continue to step 2.2
-
-Step2.2
-"""""""""""""""""""""""
-
-The CSV files are composed of columns of data separated with commas, you will have to choose wich column you want to assign to the X and Y coordinates
-
-.. image:: img/window-importdata5.png
-
-#. List of the columns which can be assigned as X or Y coordinates
-#. allows to go back or to continue to :ref:`datamanagement#Step3`
+#. Path to the CSV file
+#. Information about the CSV file
+#. Go back to :ref:`datamanagement#Step1` or continue to :ref:`datamanagement#Step3`
 
 .. _datamanagement#Step3:
 
-Step3
+Step 3 - for CSV files ony
 ^^^^^^^^^^^^^^^^^^^^^
+
+The CSV files are composed of columns of data separated with commas. The columns containing the X and Y coordinates must then be selected.
+
+.. image:: img/window-importdata5.png
+
+#. List of the columns which can be assigned as X or Y coordinates. If the fields have standard names, they can be automatically preselected.
+#. Go back to :ref:`datamanagement#Step2` or continue to :ref:`datamanagement#Step4`
+
+.. _datamanagement#Step4:
+
+Step 4
+^^^^^^^^^^^^^^^^^^^^^
+
+Select the target to import the data.
 
 .. image:: img/window-importdata3.png
 
-#. List of layers within the data will be imported (with the shapefile import the choice is restricted to the geometrical type of the data)
-#. import the data or cancel the operation
+#. List of possible target to import the data
+#. Go back to :ref:`datamanagement#Step3` or continue to :ref:`datamanagement#Step5`
+
+.. _datamanagement#Step5:
+
+Step 5
+^^^^^^^^^^^^^^^^^^^^^
+
+Select the layer to import the data (if not a frame).
+
+.. image:: img/window-importdata6.png
+
+#. List of possible layers to import the data
+#. Go back to :ref:`datamanagement#Step4` or continue to :ref:`datamanagement#Step6`
+
+.. _datamanagement#Step6:
+
+Step 6
+^^^^^^^^^^^^^^^^^^^^^
+
+Select the object kind field.
+
+.. image:: img/window-importdata7.png
+
+#. Select which field in the file contains the definition of the object kind.
+#. Alternatively, select a single kind for all objects.
+#. Go back to :ref:`datamanagement#Step5` or to continue to :ref:`datamanagement#Step7`
+
+.. _datamanagement#Step7:
+
+Step 7
+^^^^^^^^^^^^^^^^^^^^^
+
+Define the matching of the object kinds with the database.
+
+.. image:: img/window-importdata8.png
+
+#. All values of the field identified as object kind are listed. On the right hand side, a list of all object kinds from the database is displayed. The correspondence must be established.
+#. Go back to :ref:`datamanagement#Step6` or to continue to :ref:`datamanagement#Step8`
+
+.. _datamanagement#Step8:
+
+Step 8
+^^^^^^^^^^^^^^^^^^^^^
+
+Define the matching of the attributes with the database (if applicable).
+
+.. image:: img/window-importdata9.png
+
+#. All other fields of the file are listed. On the right hand side, a list of all attributes from the database is displayed. The correspondence must be established.
+#. Go back to :ref:`datamanagement#Step7` or to continue to :ref:`datamanagement#Step9`
+
+
+.. _datamanagement#Step9:
+
+Step 9
+^^^^^^^^^^^^^^^^^^^^^
+
+Define the matching of the enumerations with the database (if applicable).
+
+.. image:: img/window-importdata10.png
+
+#. All attributes that are of enumeration type are listed. The first attribute name is the one from the database and the second is the one from the file.
+#. All the field values from the file for that attribute are listed. On the right hand side, a list of all enumeration values for that attribute from the database is displayed. The correspondence must be established.
+#. Go back to :ref:`datamanagement#Step8` or to terminate the import.
+
 
 Table of contents options
 ---------------------------
