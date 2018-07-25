@@ -79,7 +79,7 @@ If you choose to add a shapefile the following step comes ahead
 #. Information about the shapefile
 #. Go back to :ref:`datamanagement#Step1` or continue to :ref:`datamanagement#Step4`
 
-If you choose to add a CSV file the following step comes ahead
+If you choose to add a CSV file, the following step comes ahead
 
 .. image:: img/window-importdata4.png
 
@@ -89,7 +89,7 @@ If you choose to add a CSV file the following step comes ahead
 
 .. _datamanagement#Step3:
 
-Step 3 - for CSV files ony
+Step 3 - for CSV files only
 ^^^^^^^^^^^^^^^^^^^^^
 
 The CSV files are composed of columns of data separated with commas. The columns containing the X and Y coordinates must then be selected.
@@ -108,7 +108,7 @@ Select the target to import the data.
 
 .. image:: img/window-importdata3.png
 
-#. List of possible target to import the data
+#. List of possible targets to import the data
 #. Go back to :ref:`datamanagement#Step3` or continue to :ref:`datamanagement#Step5`
 
 .. _datamanagement#Step5:
@@ -145,7 +145,7 @@ Define the matching of the object kinds with the database.
 
 .. image:: img/window-importdata8.png
 
-#. All values of the field identified as object kind are listed. On the right hand side, a list of all object kinds from the database is displayed. The correspondence must be established.
+#. All values of the field identified as object kind are listed. On the right-hand side, a list of all object kinds from the database is displayed. The correspondence must be established.
 #. Go back to :ref:`datamanagement#Step6` or to continue to :ref:`datamanagement#Step8`
 
 .. _datamanagement#Step8:
@@ -157,7 +157,7 @@ Define the matching of the attributes with the database (if applicable).
 
 .. image:: img/window-importdata9.png
 
-#. All other fields of the file are listed. On the right hand side, a list of all attributes from the database is displayed. The correspondence must be established.
+#. All other fields of the file are listed. On the right-hand side, a list of all attributes from the database is displayed. The correspondence must be established.
 #. Go back to :ref:`datamanagement#Step7` or to continue to :ref:`datamanagement#Step9`
 
 
@@ -171,7 +171,7 @@ Define the matching of the enumerations with the database (if applicable).
 .. image:: img/window-importdata10.png
 
 #. All attributes that are of enumeration type are listed. The first attribute name is the one from the database and the second is the one from the file.
-#. All the field values from the file for that attribute are listed. On the right hand side, a list of all enumeration values for that attribute from the database is displayed. The correspondence must be established.
+#. All the field values from the file for that attribute are listed. On the right-hand side, a list of all enumeration values for that attribute from the database is displayed. The correspondence must be established.
 #. Go back to :ref:`datamanagement#Step8` or to terminate the import.
 
 
