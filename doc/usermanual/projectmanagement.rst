@@ -9,6 +9,7 @@ The whole management of the project is made with the menu :guilabel:`Project`, w
   * :guilabel:`Backup`: create a backup of the project
   * :guilabel:`Manage backup`: open the backup management window
   * :guilabel:`Save as Template`: save your project as a template
+  * :guilabel:`Merge projects`: merge another project in the current project
   * :guilabel:`Export Layer...`: export a layer or the project as shapefile
   * :guilabel:`Export Model as PDF...`: export your data model as PDF
   * :guilabel:`Edit`: edit the project
@@ -399,6 +400,23 @@ After saving your template you can enter a comment that will appear if you use t
 .. image:: img/window-template-save2.png
 
 #. Comment on the template
+
+.. _proj_manage#merge-projects:
+
+Merge projects
+---------------------------
+
+Another project can be merged into the current project with the option :menuselection:`Project --> Merge projects`. Only projects based on the same data model can be merged (this is tested before merging). Before proceeding to the merge, a backup of the current project is performed.
+
+A window will open to choose the other project that will be merged into the current project:
+
+.. image:: img/window-merge-dirpicker.png
+
+Then, a confirmation will be requested before proceeding to the merge:
+
+.. image:: img/window-merge-confirm.png
+
+The merge is finally performed.
 
 .. _proj_manage#export-a-project:
 

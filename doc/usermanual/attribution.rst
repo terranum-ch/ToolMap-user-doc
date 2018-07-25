@@ -26,11 +26,9 @@ This level of attribution is made with the object kind panel. This panel can be 
 .. image:: img/window-objectkind.png
 
 #. The current construction layer in edition
-#. The list of objects related to the construction layer defined in (1). This list can be reordered using a contextual menu. In the line layer the objects are distributed in two categories:
-
-    * Frequent objects
-    * Less frequent objects. The assignation of the object kinds to one or the other category is made at the level of the object kind definition (see :ref:`edit_objects`).
-
+#. A dynamic search field to filter the object kinds
+#. Selection of "frequent" / "less frequent" objects. The definition of the object kinds as "frequent" or "less frequent" is made at the level of the object kind definition (see :ref:`edit_objects`), or in the contextual menu after selection of an object kind in (4).
+#. The list of objects related to the construction layer defined in (1). This list can be reordered using a contextual menu.  
 #. Object kind controls:
 
     * The [Add] button allows you to add one or more object kind. It will only adjoin the selected new object(s) to the selected features without removing their previous attribution.
