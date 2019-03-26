@@ -11,14 +11,14 @@ The data management is made through the :guilabel:`Data` menu, it contains the f
 .. _link-data:
 
 Link data
------------------
+---------
 
 The :menuselection:`Data --> Link Data...` option allows loading some support themes for the vectorization of the construction layers. Those support themes can be vector data (\*.shp) or raster data (\*.tif, \*.JPG and Esri's binary GRID).
 
 In the opposite of the construction layers, the support themes are not stocked in the project but only referenced.
 
 Rotation
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 Some of your files may have rotation information, which is not yet supported by ToolMap. In that case you will see the following message:
 
@@ -32,13 +32,13 @@ Some of your files may have rotation information, which is not yet supported by 
 This message will pop up every time you make an action regarding the layer (including trivial actions like zoom or pan), so be sure to convert your images into non-rotated rasters (see :ref:`rotation_warning`). If the rotation is insignificant, you may prefer to simply ignore the message by checking the option **Hide warnings for this layer**. This option prevent the appearance of the message for the current session, but it will pop again the next time you launch your project.
 
 Unlink data
------------------
+-----------
 The :menuselection:`Data --> Unlink data` option allows removing specified support layers from the project. Those layers aren't deleted but simply removed from the project.
 
 .. image:: img/unlink-data.png
 
 Add Web Data
------------------
+------------
 
 The :menuselection:`Data --> Add Web data` option allows adding web data as support layers. The list of supported web data are listed in the picture bellow.
 
@@ -50,14 +50,14 @@ The :menuselection:`Data --> Add Web data` option allows adding web data as supp
 
 
 Import data
------------------
+-----------
 
 The :menuselection:`Data --> Import data...` option allows to import some existing information into the construction layers. You can only import lines or points geometries. The process is made in several successive steps. The import might finish earlier if the next steps are not relevant (e.g. there is no attribute).
 
 .. _datamanagement#Step1:
 
 Step 1
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 ToolMap supports the import of csv (points only) or shapefiles (points, lines, frame, or labels)
 
@@ -69,7 +69,7 @@ ToolMap supports the import of csv (points only) or shapefiles (points, lines, f
 .. _datamanagement#Step2:
 
 Step 2
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 If you choose to add a shapefile the following step comes ahead
 
@@ -90,7 +90,7 @@ If you choose to add a CSV file, the following step comes ahead
 .. _datamanagement#Step3:
 
 Step 3 - for CSV files only
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The CSV files are composed of columns of data separated with commas. The columns containing the X and Y coordinates must then be selected.
 
@@ -102,7 +102,7 @@ The CSV files are composed of columns of data separated with commas. The columns
 .. _datamanagement#Step4:
 
 Step 4
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 Select the target to import the data.
 
@@ -114,7 +114,7 @@ Select the target to import the data.
 .. _datamanagement#Step5:
 
 Step 5
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 Select the layer to import the data (if not a frame).
 
@@ -126,7 +126,7 @@ Select the layer to import the data (if not a frame).
 .. _datamanagement#Step6:
 
 Step 6
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 Select the object kind field.
 
@@ -139,7 +139,7 @@ Select the object kind field.
 .. _datamanagement#Step7:
 
 Step 7
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 Define the matching of the object kinds with the database.
 
@@ -151,7 +151,7 @@ Define the matching of the object kinds with the database.
 .. _datamanagement#Step8:
 
 Step 8
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 Define the matching of the attributes with the database (if applicable).
 
@@ -164,7 +164,7 @@ Define the matching of the attributes with the database (if applicable).
 .. _datamanagement#Step9:
 
 Step 9
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 Define the matching of the enumerations with the database (if applicable).
 
@@ -176,7 +176,7 @@ Define the matching of the enumerations with the database (if applicable).
 
 
 Table of contents options
----------------------------
+-------------------------
 
 .. image:: img/window-tocoption.png
 
@@ -184,7 +184,7 @@ Table of contents options
 #. Edition mode activated: the layer is underlined
 
 contextual menu
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 The contextual menus are opened by right-clicking on a layer of the table of contents. They vary according to the selected layer.
 
