@@ -1,5 +1,7 @@
 # ToolMap user documentation
 
+[![Documentation Status](https://readthedocs.org/projects/toolmap/badge/?version=latest)](https://toolmap.readthedocs.io/en/latest/?badge=latest)
+
 This repository contains the ToolMap user documentation and tutorials base files. The generated files are visible on ReadTheDocs here: http://toolmap.rtfd.io/
 
 ## Structure
