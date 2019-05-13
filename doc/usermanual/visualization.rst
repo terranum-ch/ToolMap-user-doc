@@ -111,5 +111,5 @@ Images
 .. image:: img/window-symbology-images.png
 
 #. Transparency management
-#. Fusion: the raster data can be multiplied with the other layers data to provide a more contrasted fusion.
+#. Fusion: the raster data can be multiplied with the underlying layers to provide a more contrasted fusion.
 #. Apply or cancel the modifications
