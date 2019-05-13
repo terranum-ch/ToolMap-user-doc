@@ -22,6 +22,8 @@ Symbology
 
 The symbology windows allow you to manage the style of each layer. You have several options available depending of the layer style. They are accessible by double clicking on the layer name in the table of content or with the option :guilabel:`Symbology...` of the contextual menu.
 
+The symbology can be exported to a file with the option :guilabel:`Save symbology...` of the contextual menu or imported with the option :guilabel:`Load symbology...`.
+
 Points
 ^^^^^^^^^^^^^^^^^^^^
 
