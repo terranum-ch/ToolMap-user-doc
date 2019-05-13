@@ -201,9 +201,14 @@ Support
 * Remove layer (support themes only)
 * Move the selected layer in the table of contents
 
-.. image:: img/pdm-tocmove.png
+.. image:: img/pdm-toc-move.png
 
 * Display management of the vertex (line and polygon layers type only)
+
+.. image:: img/pdm-toc-vertex.png
+
+* Save symbology of the layer to a file.
+* Load symbology from a file and apply to current layer.
 * Symbology management. This option can also be activated by double-clicking on the layer. (see :ref:`symbology`)
 
 
