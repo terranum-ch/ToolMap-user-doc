@@ -441,14 +441,14 @@ The exportation is made with the option :menuselection:`Project --> Export Layer
 #. Export settings 
 
     * Overwrite existing files (if disabled an increment will be added to the exported files)
-	* Add layers to the project
-	* Replace existing layers (only when the option to add layers to the project is selected)
-	* Use Fast Polygon export
+    * Add layers to the project
+    * Replace existing layers (only when the option to add layers to the project is selected)
+    * Use Fast Polygon export
 
 #. Attributes (Enumeration)
 
     * Export description
-	* Export code
+    * Export code
 
 #. Export or cancel the exportation
 
