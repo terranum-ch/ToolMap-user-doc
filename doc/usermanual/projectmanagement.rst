@@ -432,17 +432,27 @@ The exportation is made with the option :menuselection:`Project --> Export Layer
 
 .. image:: img/window-exportlayer.png
 
-#. List of the layers defined in your data model
-#. Layers selection controls
+#. List of the layers defined in your data model (previously exported layers are automatically selected). Layers selection controls:
 
     * All: select all the layers
     * None: remove all the selected layers
     * Invert: invert your current selection
 
+#. Export settings 
+
+    * Overwrite existing files (if disabled an increment will be added to the exported files)
+	* Add layers to the project
+	* Replace existing layers (only when the option to add layers to the project is selected)
+	* Use Fast Polygon export
+
+#. Attributes (Enumeration)
+
+    * Export description
+	* Export code
+
 #. Export or cancel the exportation
 
-When Exporting a Polygon Layer, ToolMap automatically create a column "NB_LABELS"
-in the resulting file. This column is filled for each polygon with the number of labels inside that polygon.
+When Exporting a Polygon Layer, ToolMap automatically create a column "NB_LABELS" in the resulting file. This column is filled for each polygon with the number of labels inside that polygon.
 
 .. _export-model-as-pdf:
 
