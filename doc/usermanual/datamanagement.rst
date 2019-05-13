@@ -207,8 +207,8 @@ Support
 
 .. image:: img/pdm-toc-vertex.png
 
-* Save symbology of the layer to a file.
-* Load symbology from a file and apply to current layer.
+* Save symbology of the layer to a file (support layers only).
+* Load symbology from a file and apply to current layer (support layers only).
 * Symbology management. This option can also be activated by double-clicking on the layer. (see :ref:`symbology`)
 
 
