@@ -63,6 +63,8 @@ Dangling nodes
 
 The polygon is not closed. This is mainly due to a bad snapping. Make sure to use the snapping panel efficiently.
 
+A dangling-node-error also ocures when a line ends on a vertex in the middle of an other line. A correct tripplepoint consists of three end points! All lines must have the same attribuition.
+
 Missing attribution
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
