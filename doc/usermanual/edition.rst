@@ -223,18 +223,23 @@ Smooth line
 The :guilabel:`Smooth line` option allows to add nodes using the Chaikin algorithm. A line must be selected in edition mode before applying the smoothing. Every application of the algorithm corresponds to an iteration of the smoothing. When finished, press :kbd:`Enter` to keep the changes.
 
 1. Select a line in edition mode
+
 .. image:: img/chaikin1.jpg
 
 2. Apply the smoothing
+
 .. image:: img/chaikin2.jpg
 
 3. Result of a single application of the smoothing
+
 .. image:: img/chaikin3.jpg
 
 4. Result of a second application of the smoothing
+
 .. image:: img/chaikin4.jpg
 
 4. Final result after pressing :kbd:`Enter`
+
 .. image:: img/chaikin5.jpg
 
 snapping
