@@ -426,31 +426,31 @@ Export a project
 Export Layers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The exportation allows generating layers, which were defined at the spatial model level in order to be used in others programs. The export path and format have to be beforehand defined (see chap. :ref:`proj_manage#settings`)
+The exportation allows generating layers, which were defined at the spatial model level in order to be used in others programs. The export path and format have to be beforehand defined (see chap. :ref:`proj_manage#settings`). A .prj file is generated along the .shp files to define the associated projection.
 
 The exportation is made with the option :menuselection:`Project --> Export Layer...`. When selecting this option the following window appears:
 
 .. image:: img/window-exportlayer.png
 
-#. List of the layers defined in your data model (previously exported layers are automatically selected). Layers selection controls:
+**Layers**: List of the layers defined in your data model (previously exported layers are automatically selected). Layers selection controls:
 
     * All: select all the layers
     * None: remove all the selected layers
     * Invert: invert your current selection
 
-#. Export settings 
+**Settings** 
 
     * Overwrite existing files (if disabled an increment will be added to the exported files)
     * Add layers to the project
     * Replace existing layers (only when the option to add layers to the project is selected)
     * Use Fast Polygon export
+    * Export empty layer (if enabled, shapefiles containing no geometry will also be generated)
 
-#. Attributes (Enumeration)
+**Attributes (Enumeration)**
 
     * Export description
     * Export code
 
-#. Export or cancel the exportation
 
 When Exporting a Polygon Layer, ToolMap automatically create a column "NB_LABELS" in the resulting file. This column is filled for each polygon with the number of labels inside that polygon.
 

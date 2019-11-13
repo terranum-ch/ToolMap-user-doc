@@ -18,6 +18,7 @@ All the edition tools are regrouped in the menu :guilabel:`Edition`, which conta
   * Merge lines :kbd:`Ctrl+F`
   * Create interection :kbd:`Ctrl+I`
   * Flip line :kbd:`Ctrl+Alt+F`
+  * Smooth line :kbd:`Ctrl+Alt+S`
   * Snapping
 
 .. _edition-tools:
@@ -211,10 +212,35 @@ Allows creating intersections between lines which cross themselves. All the segm
 
 .. important:: The tool will generate very small lines if they cross themselves on a vertex
 
-Flip fline
+Flip line
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The :guilabel:`Flip line` option allows to reverse the polarity of the selected line. To check the polarity of the line you have to either open the vertex editor (see :ref:`edit_vertex`) and check the coordinates of the first vertex or use the oriented line symbology (see :ref:`visualization#lines`) . The tool can be used on multiple lines at once.
+
+Smooth line
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The :guilabel:`Smooth line` option allows adding nodes using the Chaikin algorithm. A line must be selected in edition mode before applying the smoothing. Every application of the algorithm corresponds to an iteration of the smoothing. When finished, press :kbd:`Enter` to keep the changes.
+
+1. Select a line in edition mode
+
+.. image:: img/chaikin1.jpg
+
+2. Apply the smoothing
+
+.. image:: img/chaikin2.jpg
+
+3. Result of a single application of the smoothing
+
+.. image:: img/chaikin3.jpg
+
+4. Result of a second application of the smoothing
+
+.. image:: img/chaikin4.jpg
+
+4. Final result after pressing :kbd:`Enter`
+
+.. image:: img/chaikin5.jpg
 
 snapping
 --------------------
