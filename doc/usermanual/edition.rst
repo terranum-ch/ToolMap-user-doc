@@ -220,7 +220,7 @@ The :guilabel:`Flip line` option allows to reverse the polarity of the selected 
 Smooth line
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :guilabel:`Smooth line` option allows to add nodes using the Chaikin algorithm. A line must be selected in edition mode before applying the smoothing. Every application of the algorithm corresponds to an iteration of the smoothing. When finished, press :kbd:`Enter` to keep the changes.
+The :guilabel:`Smooth line` option allows adding nodes using the Chaikin algorithm. A line must be selected in edition mode before applying the smoothing. Every application of the algorithm corresponds to an iteration of the smoothing. When finished, press :kbd:`Enter` to keep the changes.
 
 1. Select a line in edition mode
 

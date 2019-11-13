@@ -444,7 +444,7 @@ The exportation is made with the option :menuselection:`Project --> Export Layer
     * Add layers to the project
     * Replace existing layers (only when the option to add layers to the project is selected)
     * Use Fast Polygon export
-	* Export empty layer
+    * Export empty layer (if enabled, shapefiles containing no geometry will also be generated)
 
 **Attributes (Enumeration)**
 
