@@ -426,7 +426,7 @@ Export a project
 Export Layers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The exportation allows generating layers, which were defined at the spatial model level in order to be used in others programs. The export path and format have to be beforehand defined (see chap. :ref:`proj_manage#settings`)
+The exportation allows generating layers, which were defined at the spatial model level in order to be used in others programs. The export path and format have to be beforehand defined (see chap. :ref:`proj_manage#settings`). A .prj file is generated along the .shp files to define the associated projection.
 
 The exportation is made with the option :menuselection:`Project --> Export Layer...`. When selecting this option the following window appears:
 
