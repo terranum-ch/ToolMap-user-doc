@@ -22,7 +22,7 @@ In the subsequent case you will follow the realization of a new project. It is t
 
 .. image:: img/maps.png
 
-Those are the information you choose to vectorize. To do that you will need a different layer for each map; meanig two polygonal layers and a line layer. Each color of the polygonal layers represent a different object. Each object can then have individual properties. Those properties are described by the attributes. For exemple a medium hazard (object) can stem from an innondation or a Debris flow event (attributes).
+Those are the information you choose to vectorize. To do that you will need a different layer for each map; meaning two polygonal layers and a line layer. Each color of the polygonal layers represent a different object. Each object can then have individual properties. Those properties are described by the attributes. For exemple a medium hazard (object) can stem from an innondation or a Debris flow event (attributes).
 
 All the objects can then be illustrated the following way:
 
