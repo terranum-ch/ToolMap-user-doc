@@ -1,7 +1,7 @@
 alabaster==0.7.12
 argh==0.26.2
 Babel==2.11.0
-docutils==0.19
+docutils==0.17
 imagesize==1.4.1
 Jinja2>=2.10.1
 livereload==2.6.3
