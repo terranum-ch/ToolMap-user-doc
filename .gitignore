@@ -1,4 +1,5 @@
 */env/*
 */_build/*
 .vscode
+.idea
 html
