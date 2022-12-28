@@ -39,7 +39,7 @@ Selection tool
 
   * |image_reference| Select one or several geometrical objects
 
-.. |image_reference| image:: img/toolbar_select.png
+.. |image_reference| image:: img/toolbar_select.svg
 
 
 Navigation tools
@@ -165,16 +165,16 @@ Others
   * :kbd:`Ctrl+Alt+I`: Display the information Window
 
 
-.. |img1| image:: img/toolbar_zoom_fit.png
-.. |img2| image:: img/toolbar_zoom.png
-.. |img3| image:: img/toolbar_pan.png
-.. |img4| image:: img/toolbar_previous.png
-.. |img5| image:: img/toolbar_edit.png
-.. |img6| image:: img/toolbar_modify.png
-.. |img7| image:: img/toolbar_vertex_move.png
-.. |img8| image:: img/toolbar_attribute.png
-.. |img9| image:: img/toolbar_attribute_extend.png
-.. |img10| image:: img/toolbar_info.png
+.. |img1| image:: img/toolbar_zoom_fit.svg
+.. |img2| image:: img/toolbar_zoom.svg
+.. |img3| image:: img/toolbar_pan.svg
+.. |img4| image:: img/toolbar_previous.svg
+.. |img5| image:: img/toolbar_edit.svg
+.. |img6| image:: img/toolbar_modify.svg
+.. |img7| image:: img/toolbar_vertex_move.svg
+.. |img8| image:: img/toolbar_kind.svg
+.. |img9| image:: img/toolbar_attribute.svg
+.. |img10| image:: img/toolbar_info.svg
 .. |img11| image:: img/tool-scale.jpg
 
 
