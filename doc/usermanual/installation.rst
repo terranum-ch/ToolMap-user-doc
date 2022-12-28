@@ -5,11 +5,11 @@ Windows
 --------
 
 The installation of ToolMap is rather simple. First you have to download the windows
-installer. It can be found on our web site: http://www.crealp.ch/fr/accueil/thematiques/cartographie/toolmap/telechargement.html. The setup wizard will then guide you through the installation process.
+installer. It can be found on our web site: `www.toolmap.ch <http://www.toolmap.ch>`_. The setup wizard will then guide you through the installation process.
 
 .. image:: img/install-1.png
 
-Once you activated the next step, the installer will ask you to accept the license agreement. ToolMap is released under the GNU General public license. More information about this license could be found here: https://www.gnu.org/licenses/licenses.html#GPL
+Once you activated the next step, the installer will ask you to accept the license agreement. ToolMap is released under the GNU General public license. More information about this license could be found `here <https://www.gnu.org/licenses/licenses.html#GPL>`_
 
 .. image:: img/install-2.png
 
@@ -54,7 +54,7 @@ The following command line may be used for uninstalling ToolMap silently: ::
 Mac OSX
 --------
 
-Download the ToolMap’s .DMG file from http://www.crealp.ch/fr/toolmap-telechargement.html and then double-click on it. A new Finder window similar to the one illustrated bellow should appear.
+Download the ToolMap’s .DMG file from `www.toolmap.ch <http://www.toolmap.ch>`_ and then double-click on it. A new Finder window similar to the one illustrated bellow should appear.
 
 .. image:: img/install-mac-1.png
 
