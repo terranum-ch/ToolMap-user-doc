@@ -105,11 +105,11 @@ Project management
   * :kbd:`Ctrl+Alt+N`: Create a new project based on a template
   * :kbd:`Ctrl+Alt+O`: Open an existing project
   * :kbd:`Ctrl+S`: Backup the project
-  * :kbd:`Ctrl+Alt+S`: Save the project as a template
   * :kbd:`Ctrl+Alt+E`: Open the export layer window
   * :kbd:`Ctrl+O`: Link data
   * :kbd:`Ctrl+W`: Unlink data
   * :kbd:`Ctrl+Alt+W`: Add Web data
+  * :kbd:`Ctrl+G`: Add a new group in the table of content. if nothing is selected, the new group will be added at the end of the table of contents, otherwise the new group will be added as a child of the selected group
 
 Navigation tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -141,6 +141,7 @@ Editor tools
   * :kbd:`Ctrl+Alt+F`: Flip the selected line (change the orientation)
   * :kbd:`Ctrl+G`: Display the snapping panel
   * :kbd:`Ctrl+Alt+G`: Display snapping radius
+  * :kbd:`Ctrl+Alt+S`: Smooth line
 
 
   * :kbd:`V`: Selection tool
