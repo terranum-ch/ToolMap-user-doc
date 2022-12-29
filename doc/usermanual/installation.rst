@@ -54,7 +54,7 @@ The following command line may be used for uninstalling ToolMap silently: ::
 Mac OSX
 --------
 
-Download the ToolMap’s .DMG file from `www.toolmap.ch <http://www.toolmap.ch>`_ and then double-click on it. A new Finder window similar to the one illustrated bellow should appear.
+Download the ToolMap’s .DMG file from `www.toolmap.ch`_ and then double-click on it. A new Finder window similar to the one illustrated bellow should appear.
 
 .. image:: img/install-mac-1.png
 
@@ -64,13 +64,27 @@ Drag the ToolMap icon into the "Applications" folder to install ToolMap. Once To
 
 Delete the .DMG file by dragging it to the trash.
 
+Because ToolMap does not come from the Apple store and is therefore not signed, it is necessary to proceed as follows when you first open it:
+
+#. Open System Preferences.
+#. Go to Security & Privacy and select the General tab.
+#. If you’ve been blocked from opening ToolMap within the past hour, this page will give you the option to override this by clicking the temporary button :guilabel:`Open Anyway`.
+#. You’ll be asked one more time if you’re sure, but clicking :guilabel:`Open` will run the app.
+
 Linux
 -----
 
-ToolMap is actually only available as AppImage (\*.AppImage). Thoses package should run across all major Linux distributions without any issues. AppImages can be downloaded and run without installation or the need for root rights. You first need to make the downloaded AppImage executable as follows: ::
+Binaries for Linux are currently not distributed. But ToolMap can easily be compiled for this platform.
 
-        chmod a+x ToolMap-2.6.1992-linux64.AppImage
+#. Install cmake (https://cmake.org)
+#. Install conan (https://docs.conan.io/en/latest/installation.html)
+#. Download the ToolMap source code from `www.toolmap.ch`_
+#. Create a "bin" directory inside the toolmap source code folder
+#. From this directory run the following commands 
+   
+.. code-block:: shell
 
-You can then execute ToolMap with the following command: ::
+        conan install ..
+        conan build ..
 
-        ./ToolMap-2.6.1992-linux64.AppImage
+.. _www.toolmap.ch: http://www.toolmap.ch
