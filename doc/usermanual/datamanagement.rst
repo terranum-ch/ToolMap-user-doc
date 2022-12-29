@@ -190,34 +190,57 @@ Table of contents options
 * |icon7| Edition mode activated, only allowed for construction layers |icon3|.
 
 
-contextual menu
+Contextual menu
 ^^^^^^^^^^^^^^^
 
 The contextual menus are opened by right-clicking on a layer of the table of contents. They vary according to the selected layer.
 
-Construction
+Construction layers
+::::::::::::::::::::
 
-.. image:: img/pdm-toc.png
+.. image:: img/context_menu_construction.svg
 
-Support
+#. Menu for lines or frame layers
+#. Menu for points and labels
 
-.. image:: img/pdm-toc2.png
+The menu entries correspond to the following actions:
 
-* Name of the layer
-* Edit this layer (construction layers only)
-* Remove layer (support themes only)
-* Move the selected layer in the table of contents
+* :guilabel:`Edit Layer`  Put the selected layer in edition. 
+* :guilabel:`Show Vertex` Allows you to select which vertex should be displayed.
+* :guilabel:`Symbology...` Display the symbology dialog (see :ref:`symbology`).
 
-.. image:: img/pdm-toc-move.png
+.. important:: For editing to work properly, the theme must be in edit mode and selected!
 
-* Display management of the vertex (line and polygon layers type only)
+Support layers
+::::::::::::::::::::
 
-.. image:: img/pdm-toc-vertex.png
 
-* Save symbology of the layer to a file (support layers only).
-* Load symbology from a file and apply to current layer (support layers only).
-* Symbology management. This option can also be activated by double-clicking on the layer. (see :ref:`symbology`)
+.. image:: img/context_menu_support.svg
 
+#. Menu for shapefile support layers.
+#. Menu for raster / web raster support layers.
+
+The menu entries correspond to the following actions:
+
+* :guilabel:`Remove layer`  Remove the selected layer from the project. 
+* :guilabel:`Show Vertex` Select which vertex should be displayed.
+* :guilabel:`Labels...` Place text next to the geometric object. It is mainly used for points.
+* :guilabel:`Save Symbology...`  Save the current symbology into an external file (.tly).
+* :guilabel:`Load Symbology...` Load the symbology from an external file (.tly).
+* :guilabel:`Symbology...` Display the symbology dialog (see :ref:`symbology`).
+
+Groups
+:::::::::::::::::::::::
+
+.. image:: img/contextual_menu_groups.png
+
+The menu entries correspond to the following actions:
+
+* :guilabel:`Add new group`  Create a new group. If a group is selected, the new group will be added as its child. 
+* :guilabel:`Rename group` Change the group name.
+* :guilabel:`Remvove group` Remove a group from the project.
+
+.. warning:: A group can only be deleted if it is empty.
 
 .. |icon1| image:: img/toc_check_off.svg
 .. |icon2| image:: img/toc_check_on.svg
