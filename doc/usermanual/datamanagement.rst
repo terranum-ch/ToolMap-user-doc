@@ -175,6 +175,8 @@ Define the matching of the enumerations with the database (if applicable).
 #. Go back to :ref:`datamanagement#Step8` or to terminate the import.
 
 
+.. _spatial_management_table-of-content:
+
 Table of contents options
 -------------------------
 
@@ -182,6 +184,8 @@ Table of contents options
 
 #. |img1| Activate the display of the layer |img2| Deactivate the display of the layer
 #. Edition mode activated: the layer is underlined
+
+.. note:: A layer will only be displayed if all its parents are also displayed
 
 contextual menu
 ^^^^^^^^^^^^^^^

@@ -78,12 +78,29 @@ Scale
 Table of Content
 -------------------------------
 
+.. important:: The table of contents has been completely redesigned in the version 4.0
+
 The table of content shows a list of all the layers loaded in the project. It looks like the following:
 
 .. image:: img/window-toc.png
 
-#. Construction layers, they are automatically generated at the creation of the project and can be edited. They are displayed using a bold font.
-#. Support Themes, they cannot be edited.
+The following items may appear in the table of contents:
+
+* |icon3| Construction layers
+* |icon6| Raster support themes
+* |icon8| Web support layers
+* |icon4| Shapefiles
+* |icon5| Groups that can contain other groups or the above layers
+
+Construction layers are automatically generated at the creation of the project and can be edited. When this is the case, the following icon is displayed next to their names |icon7|. Support Themes cannot be edited.
+
+Visibility
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* |icon2| Layer / group displayed
+* |icon1| Layer / group hidden
+
+.. seealso:: More information on how the table of contents works is available in the :ref:`spatial_management_table-of-content` topic.
 
 Status bar
 -------------------------------
@@ -178,7 +195,14 @@ Others
 .. |img10| image:: img/toolbar_info.svg
 .. |img11| image:: img/tool-scale.jpg
 
-
+.. |icon1| image:: img/toc_check_off.svg
+.. |icon2| image:: img/toc_check_on.svg
+.. |icon3| image:: img/toc_database.svg
+.. |icon4| image:: img/toc_file.svg
+.. |icon5| image:: img/toc_folder.svg
+.. |icon6| image:: img/toc_image.svg
+.. |icon7| image:: img/toc_pen.svg
+.. |icon8| image:: img/toc_web.svg
 
 
 
