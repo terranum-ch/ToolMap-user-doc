@@ -5,6 +5,21 @@ Tips
 
 Welcome to this part of the wiki. Before going further be aware that the following topics may require a good understanding/ knowledge of ToolMap but can eventually help you use it with more ease.
 
+Project Structure
+-------------------------
+
+ToolMap projects are made of an embedded database. A good directory structure facilitates the work as explained below.
+
+
+.. toctree:: 
+   :maxdepth: 2
+
+   tips/projectstructure
+
+
+Edition and attribution
+-------------------------
+
 The strategies described are not by any means mandatory to use. They are just some observations made on a frequent use of the software. They  browse the three main domains of ToolMap:
 
 .. toctree::

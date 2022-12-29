@@ -11,3 +11,5 @@ MariaDB brings a lot of performance improvement but does not support the opening
 
 #. ToolMap can open the different projects without restarting
 #. ToolMap must restart to open the different projects
+
+:ref:`database_limitation`
