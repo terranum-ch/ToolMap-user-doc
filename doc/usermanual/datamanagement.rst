@@ -180,12 +180,15 @@ Define the matching of the enumerations with the database (if applicable).
 Table of contents options
 -------------------------
 
-.. image:: img/window-tocoption.png
+.. image:: img/window-toc.png
 
-#. |img1| Activate the display of the layer |img2| Deactivate the display of the layer
-#. Edition mode activated: the layer is underlined
+* |icon2| Activate the display of the layer / group 
+* |icon1| Deactivate the display of the layer / group
 
 .. note:: A layer will only be displayed if all its parents are also displayed
+
+* |icon7| Edition mode activated, only allowed for construction layers |icon3|.
+
 
 contextual menu
 ^^^^^^^^^^^^^^^
@@ -216,6 +219,8 @@ Support
 * Symbology management. This option can also be activated by double-clicking on the layer. (see :ref:`symbology`)
 
 
-.. |img1| image:: img/button-marked.png
-.. |img2| image:: img/button-unmarked.png
+.. |icon1| image:: img/toc_check_off.svg
+.. |icon2| image:: img/toc_check_on.svg
+.. |icon3| image:: img/toc_database.svg
+.. |icon7| image:: img/toc_pen.svg
 

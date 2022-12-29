@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'ToolMap-user-doc'
-copyright = '2017, Lucien SCHREIBER'
+copyright = '2022, Terranum'
 author = 'Lucien SCHREIBER'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -77,6 +77,7 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
+language = 'en'
 
 # -- Options for HTML output ----------------------------------------------
 
