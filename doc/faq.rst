@@ -7,3 +7,4 @@ You will find here some frequent asked question about ToolMap.
    :maxdepth: 2
 
    faq/rotation
+   faq/databaselimitation
