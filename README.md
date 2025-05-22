@@ -22,7 +22,7 @@ This step is only needed in order to compile locally the documentation. the Read
 
 3. Install the required packages using:
 
-        pip install Sphinx
+        pip install Sphinx sphinx-rtd-theme
 
     > see the `requirements.txt` file for more information.
 

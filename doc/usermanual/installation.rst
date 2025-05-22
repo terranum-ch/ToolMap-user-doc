@@ -64,6 +64,14 @@ Drag the ToolMap icon into the "Applications" folder to install ToolMap. Once To
 
 Delete the .DMG file by dragging it to the trash.
 
+.. warning:: ToolMap is not signed, therefore you need to open the Terminal and run the following command to allow ToolMap to run:
+
+
+.. code-block:: shell
+    
+          xattr -rc /Applications/ToolMap.app
+
+
 Because ToolMap does not come from the Apple store and is therefore not signed, it is necessary to proceed as follows when you first open it:
 
 #. Open System Preferences.
