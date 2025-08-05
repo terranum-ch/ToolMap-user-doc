@@ -59,8 +59,8 @@ The :menuselection:`Data --> Load WMS data` opens the **WMS Browser** window, wh
 
 The top part of the window contains controls for connecting to a WMS server:
 
-* WMS Server URL: at the top of the window, the *URL* field lets the user specify the address of the WMS server. This is typically a query URL following the WMS standard, such as: ``https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0``. The user can either type the URL manually or select a previously used one from the drop-down list. Once the URL is set, pressing the **Load layers** button to the right will query the server and populate the list of available layers.
-* Language Selector: next to the URL field, there is a language selection drop-down. This allows the user to choose the preferred language in which metadata such as layer titles and abstracts are displayed.
+* WMS Server URL: at the top of the window, the *URL* field lets you specify the address of the WMS server. This is typically a query URL following the WMS standard, such as: ``https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0``. You can either type the URL manually or select a pre-recorded one from the drop-down list. Once the URL is set, pressing the **Load layers** button to the right will query the server and populate the list of available layers.
+* Language Selector: next to the URL field, there is a language selection drop-down. It allows you to choose the preferred language in which metadata such as layer titles and abstracts are displayed.
 * Load layers button: after entering the WMS server URL and selecting the language, clicking this button will initiate a request to the server to retrieve the list of available layers. The layers will then be displayed in the table below.
 
 Layer Table: once the layers are loaded, they appear in a scrollable table in the center of the window. Each row corresponds to a WMS layer provided by the server. The table contains the following columns:
@@ -72,8 +72,8 @@ Layer Table: once the layers are loaded, they appear in a scrollable table in th
 
 Users can scroll through the list or use the filter tool at the bottom to narrow down the displayed layers. Multiple layers can be selected at once using the checkboxes.
 
-* Search and Filter: below the table, there is a search box labeled **Filter title**, which allows the user to dynamically filter the list of layers by title.
-* Projection Selector: to the right of the filter, the user can select the desired map projection from a drop-down menu. The list contains the projections supported by the WMS server. By default, the projection is set to the project projection if supported by the WMS server. Changing the projection will affect the exported layers' coordinate reference system.
+* Search and Filter: below the table, there is a search box labeled **Filter title**, which allows you to dynamically filter the list of layers by title.
+* Projection Selector: to the right of the filter, you can select the desired map projection from a drop-down menu. The list contains the projections supported by the WMS server. By default, the projection is set to the project projection if supported by the WMS server. Changing the projection will affect the exported layers' coordinate reference system.
 * Append to Project: beneath the table is a checkbox labeled **Append to project**. When enabled, this ensures that selected layers will be directly added to the currently open ToolMap project upon export.
 * Export Button: finally, the **Export...** button initiates the process of exporting the selected layers and adding them to the project.
 
