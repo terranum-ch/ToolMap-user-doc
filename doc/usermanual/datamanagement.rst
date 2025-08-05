@@ -44,6 +44,7 @@ Add Web Data
 The :menuselection:`Data --> Add Web data` option allows adding web data as support layers. The list of supported web data are listed in the picture bellow.
 
 .. image:: img/add-web-data.png
+   :scale: 65
 
 .. note:: Web data layers will not be displayed if there is no data into the actual project. Web layers aren’t able to know which part of the world should be displayed if at least one local support layer or one construction layer isn’t displayed.
 
@@ -54,7 +55,7 @@ Load WMS data
 The :menuselection:`Data --> Load WMS data` opens the **WMS Browser** window, which is used to connect to a Web Map Service (WMS), browse available layers, and select specific layers to export (and add to the project). The selected layers will be exported to xml files and can be added to any ToolMap project as support layers (similar to other support layers). It is however recommended to use WMS layers with the same projection as the project to benefit from the best rendering quality.
 
 .. image:: img/window-wms-browser.png
-   :scale: 65
+   :width: 695px
 
 The top part of the window contains controls for connecting to a WMS server:
 * WMS Server URL: at the top of the window, the *URL* field lets the user specify the address of the WMS server. This is typically a query URL following the WMS standard, such as: ``https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0``. The user can either type the URL manually or select a previously used one from the drop-down list. Once the URL is set, pressing the **Load layers** button to the right will query the server and populate the list of available layers.
