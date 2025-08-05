@@ -6,21 +6,32 @@ In ToolMap you have several windows providing you some extra tools or informatio
 Preferences
 ------------------------------
 
-The Preferences window is accessible through the menu :menuselection:`window --> preferences`. It contains some basic settings accessible at any time. (even if no project is opened).
+The Preferences window is accessible through the menu :menuselection:`window --> preferences`. It contains some basic settings accessible at any time (even if no project is opened).
 
 .. image:: img/window-preferences.png
 
-#. Set de color of the selected features (red by default).
-#. Display a white outline around the selected features if checked.
-#. This option makes ToolMap remember the relative path and not the physical path of the linked data.
-#. This option allows toolmap to build overviews for the data which don't have them already. It can greatly improve the performences of ToolMap in the case of heavy data.
+* Selection color: color of the selected features (red by default).
+* Display outline: displays a white outline around the selected features if checked.
+* Save relative paths: makes ToolMap remember the relative path and not the physical path of the linked data.
+* Build overviews: allows toolmap to build overviews for the data which don't have them already. It can greatly improve the performences of ToolMap in the case of heavy data.
 
-On the second tab of the window, there are the options related to the connection. If you have an access to internet ToolMap will automatically check for new updates.
+The second tab of the window is for updates options. If you have an access to internet ToolMap will automatically check for new updates.
 
 .. image:: img/window-preferences2.png
 
-#. activate/deactivate the update check
-#. Information to fulfill if your connection is behind a proxy
+* Activate/deactivate the update check
+
+The third tab of the window is for the proxy configuration. If you are behind a proxy, you can set it here so that ToolMap can access the internet.
+
+.. image:: img/window-preferences3.png
+
+* Use system proxy: if checked, ToolMap will use the system proxy settings.
+* Proxy informations: you can set the proxy address and port (ex: myproxy.com:8080).
+
+The fourth tab of the window is for debugging options.
+
+.. image:: img/window-preferences4.png
+
 
 .. _information-window:
 
