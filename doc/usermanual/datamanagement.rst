@@ -65,10 +65,10 @@ The top part of the window contains controls for connecting to a WMS server:
 
 Layer Table: once the layers are loaded, they appear in a scrollable table in the center of the window. Each row corresponds to a WMS layer provided by the server. The table contains the following columns:
 
-  - A checkbox for selecting the layer.
-  - Layer: the internal layer identifier.
-  - Title: a human-readable title of the layer.
-  - Abstract: a brief abstract describing the content or purpose of the layer.
+* A checkbox for selecting the layer.
+* Layer: the internal layer identifier.
+* Title: a human-readable title of the layer.
+* Abstract: a brief abstract describing the content or purpose of the layer.
 
 Users can scroll through the list or use the filter tool at the bottom to narrow down the displayed layers. Multiple layers can be selected at once using the checkboxes.
 
