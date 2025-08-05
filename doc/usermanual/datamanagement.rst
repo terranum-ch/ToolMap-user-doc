@@ -58,11 +58,13 @@ The :menuselection:`Data --> Load WMS data` opens the **WMS Browser** window, wh
    :width: 695px
 
 The top part of the window contains controls for connecting to a WMS server:
+
 * WMS Server URL: at the top of the window, the *URL* field lets the user specify the address of the WMS server. This is typically a query URL following the WMS standard, such as: ``https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0``. The user can either type the URL manually or select a previously used one from the drop-down list. Once the URL is set, pressing the **Load layers** button to the right will query the server and populate the list of available layers.
 * Language Selector: next to the URL field, there is a language selection drop-down. This allows the user to choose the preferred language in which metadata such as layer titles and abstracts are displayed.
 * Load layers button: after entering the WMS server URL and selecting the language, clicking this button will initiate a request to the server to retrieve the list of available layers. The layers will then be displayed in the table below.
 
 Layer Table: once the layers are loaded, they appear in a scrollable table in the center of the window. Each row corresponds to a WMS layer provided by the server. The table contains the following columns:
+
   - A checkbox for selecting the layer.
   - Layer: the internal layer identifier.
   - Title: a human-readable title of the layer.
