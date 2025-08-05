@@ -9,7 +9,7 @@ Preferences
 The Preferences window is accessible through the menu :menuselection:`window --> preferences`. It contains some basic settings accessible at any time (even if no project is opened).
 
 .. image:: img/window-preferences.png
-   :scale: 50
+   :scale: 65
 
 * Selection color: color of the selected features (red by default).
 * Display outline: displays a white outline around the selected features if checked.
@@ -19,14 +19,14 @@ The Preferences window is accessible through the menu :menuselection:`window -->
 The second tab of the window is for updates options. If you have an access to internet ToolMap will automatically check for new updates.
 
 .. image:: img/window-preferences2.png
-   :scale: 50
+   :scale: 65
 
 * Activate/deactivate the update check
 
 The third tab of the window is for the proxy configuration. If you are behind a proxy, you can set it here so that ToolMap can access the internet.
 
 .. image:: img/window-preferences3.png
-   :scale: 50
+   :scale: 65
 
 * Use system proxy: if checked, ToolMap will use the system proxy settings.
 * Proxy informations: you can set the proxy address and port (ex: myproxy.com:8080).
@@ -34,7 +34,7 @@ The third tab of the window is for the proxy configuration. If you are behind a 
 The fourth tab of the window is for debugging options.
 
 .. image:: img/window-preferences4.png
-   :scale: 50
+   :scale: 65
 
 
 .. _information-window:
